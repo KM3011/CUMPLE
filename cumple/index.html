@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños Papá</title>
+    
+    <!-- Fuentes elegantes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Partículas / Polvo de estrellas -->
+    <div id="particles-container"></div>
+
+    <!-- Música de fondo (debes colocar un mp3 en la carpeta o cambiar la URL) -->
+    <!-- <audio id="bg-music" src="cancion.mp3" loop preload="auto"></audio> -->
+
+    <!-- Pantalla de Inicio -->
+    <section id="intro-screen" class="screen active">
+        <div class="intro-content">
+            <h1>Para ti, Papá</h1>
+            <p>Sube el volumen y disfruta de este pequeño detalle...</p>
+            <button id="start-btn" class="glow-button">Comenzar</button>
+        </div>
+    </section>
+
+    <!-- Contenedor del video / slideshow -->
+    <section id="video-container" class="screen">
+        <!-- Estelas y formas flotantes (historia) -->
+        <div id="memory-shapes-container"></div>
+
+        <!-- Las imágenes se insertarán dinámicamente aquí -->
+        <div id="image-gallery"></div>
+        
+        <!-- Efecto de luz cinematográfico -->
+        <div id="light-leak-overlay"></div>
+        
+        <!-- Textos superpuestos -->
+        <div id="text-overlay" class="text-overlay"></div>
+    </section>
+
+    <!-- Pantalla Final -->
+    <section id="final-screen" class="screen">
+        <div class="final-content">
+            <h2 class="title">¡Feliz Cumpleaños!</h2>
+            <p class="subtitle">Eres nuestra mayor inspiración.</p>
+            <div class="message">
+                <p>Gracias por cada enseñanza, por tu paciencia infinita y por ser el pilar de nuestra familia.</p>
+                <p>Que este nuevo año de vida te traiga tanta felicidad como la que tú nos regalas a nosotros todos los días.</p>
+            </div>
+            <p class="signature">Con muchísimo amor,<br>Tu familia.</p>
+        </div>
+    </section>
+
+    <!-- Script principal -->
+    <script src="script.js"></script>
+</body>
+
+</html>
